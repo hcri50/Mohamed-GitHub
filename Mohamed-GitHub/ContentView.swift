@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "1.circle")
+            Image(systemName: "2.circle")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 200, height: 200)
