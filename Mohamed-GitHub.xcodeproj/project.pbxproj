@@ -11,6 +11,7 @@
 		92547AB12B0AEBDC0012A2BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92547AB02B0AEBDC0012A2BB /* ContentView.swift */; };
 		92547AB32B0AEBDD0012A2BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92547AB22B0AEBDD0012A2BB /* Assets.xcassets */; };
 		92547AB62B0AEBDD0012A2BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92547AB52B0AEBDD0012A2BB /* Preview Assets.xcassets */; };
+		92547ABE2B0AF3B20012A2BB /* MainMenuSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92547ABD2B0AF3B20012A2BB /* MainMenuSelection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		92547AB02B0AEBDC0012A2BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92547AB22B0AEBDD0012A2BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92547AB52B0AEBDD0012A2BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92547ABD2B0AF3B20012A2BB /* MainMenuSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuSelection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				92547AAE2B0AEBDC0012A2BB /* Mohamed_GitHubApp.swift */,
 				92547AB02B0AEBDC0012A2BB /* ContentView.swift */,
+				92547ABC2B0AF3870012A2BB /* MainMenu */,
 				92547AB22B0AEBDD0012A2BB /* Assets.xcassets */,
 				92547AB42B0AEBDD0012A2BB /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				92547AB52B0AEBDD0012A2BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92547ABC2B0AF3870012A2BB /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				92547ABD2B0AF3B20012A2BB /* MainMenuSelection.swift */,
+			);
+			path = MainMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92547AB12B0AEBDC0012A2BB /* ContentView.swift in Sources */,
+				92547ABE2B0AF3B20012A2BB /* MainMenuSelection.swift in Sources */,
 				92547AAF2B0AEBDC0012A2BB /* Mohamed_GitHubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
