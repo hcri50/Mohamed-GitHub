@@ -14,7 +14,7 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 200, height: 200)
-            Text("Version 1")
+            Text("Version 1.0")
                 .font(.system(size: 36))
         }
         .padding()
